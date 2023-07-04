@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <main className="relative p-6 pb-16 md:pb-6">
       <m.div
-        initial={{ x: "100%" }}
-        animate={{ x: 0 }}
-        transition={{ duration: 0.4 }}
+
         className="fixed z-[-1] bottom-[50%] left-0 right-0 bg-bg-pattern w-screen min-h-screen bg-no-repeat bg-cover"
       />
       <Header />
